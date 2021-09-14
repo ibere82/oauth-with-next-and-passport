@@ -1,0 +1,41 @@
+.container{
+  display: block;
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 19px;
+  margin: 5px;
+  height: 60px;
+  width: calc(100% - 10px);
+  overflow: hidden;
+  padding: 0px 10px;
+  background-color: white;
+  user-select: none;
+}
+
+.container:hover{
+ background-color: rgb(235 240 235);
+}
+
+.labelIconWrapper{
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.label {
+  padding: 20px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 600px){
+  .label{
+    font-size: 0.8rem;;
+  }
+}

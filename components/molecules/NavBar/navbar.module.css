@@ -1,0 +1,23 @@
+.navbarContainer {
+  background-color: #fff;
+  width: 100%;
+  height: 150px;
+  border-bottom: 0.5px solid #999;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-size: 1rem;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+@media (max-width: 600px)
+  {
+    .title
+      {
+      font-size: 0.8rem;
+      }
+  }

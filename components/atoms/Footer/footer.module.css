@@ -1,0 +1,21 @@
+.container {
+  background-color: #fff;
+  width: 100%;
+  border-top: 0.5px solid #999;
+  display: flex;
+  flex-direction: row;
+}
+
+.creditsArea{
+  padding: 1rem;
+}
+
+.icons{
+  width: 3rem;
+  margin: 1rem;
+}
+
+.iconsContainer{
+ margin-left: auto;
+ margin-top: 30px;
+}

@@ -1,0 +1,75 @@
+.container 
+  {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.topperArea
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+.image
+  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+.button
+  {
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 7rem;
+    cursor: pointer;
+  }
+
+.bottomText
+  {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+@media (max-width: 600px)
+  {
+    .topperArea{
+      flex-direction: column;
+      margin-top: 2rem;
+    }
+
+    .container
+    {
+      margin-right: auto;
+      width: 5rem;
+    }
+
+    .bottomText
+    {
+      font-size: 0.7rem;
+    }
+
+    .image
+    {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .button
+    {
+      width: 5rem;
+      height: 2rem;
+    }
+
+  }
